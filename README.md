@@ -1,5 +1,6 @@
 # New rock-paper-scissors
-This is an improvement to the previuos rock-paper-scissors game that was can be played in the console
+This is an improvement to the previous rock-paper-scissors game I made that can be played in the console.
+
 This game can be played on the browser against the computer
 
 ## How to play
