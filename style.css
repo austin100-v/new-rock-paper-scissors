@@ -1,0 +1,86 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header {
+    display: flex;
+    padding: 24px;
+    align-items: center;
+    justify-content: center;
+    background-color: darkblue;
+    gap: 100px;
+}
+
+.header-content h1 {
+    font-size: 48px;
+    color: aqua;
+}
+
+.header-content p {
+    font-size: 24px;
+    color: aqua;
+}
+
+.header-image img {
+    width: 150px;
+}
+
+.game-content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+}
+
+.game-content h2 {
+    color: darkblue;
+    font-size: 32px;
+}
+
+.hands {
+    display: flex;
+    gap: 48px;
+    align-items: center;
+    justify-content: center;
+}
+.hand {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.hand button {
+    padding: 10px;
+}
+
+.hand button img {
+    width: 200px;
+}
+
+.output {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.computer-choice img{
+    width: 200px;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+footer p a {
+    text-decoration: none;
+}
+
+footer p a:hover {
+    text-decoration: underline;
+}
