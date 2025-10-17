@@ -35,7 +35,7 @@ rockBtn.addEventListener("click", () => {
     } else if (computerSelection === "paper") {
         para.textContent = "You Lost! Paper covers Rock";
     } else {
-        para.textContent = "You Won! Rock beats Paper";
+        para.textContent = "You Won! Rock beats Scissors";
     }
 });
 
